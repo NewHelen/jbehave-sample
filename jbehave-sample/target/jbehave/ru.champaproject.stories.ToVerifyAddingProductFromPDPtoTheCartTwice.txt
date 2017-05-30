@@ -1,0 +1,23 @@
+
+(ru/champaproject/stories/ToVerifyAddingProductFromPDPtoTheCartTwice.story)
+Scenario: to verify adding product from PDP to the cart twice
+Given Go to PDP
+Check current item quantity in the cart (PENDING)
+And Click 'Add to cart' button (NOT PERFORMED)
+When Click 'Add to cart' button again (NOT PERFORMED)
+Then Check current item quantity was updated
+//Then Mini cart was updated with one item more (PENDING)
+@Given("Go to PDP\r\nCheck current item quantity in the cart")
+@Pending
+public void givenGoToPDPCheckCurrentItemQuantityInTheCart() {
+  // PENDING
+}
+
+@Then("Check current item quantity was updated\r\n//Then Mini cart was updated with one item more")
+@Pending
+public void thenCheckCurrentItemQuantityWasUpdatedThenMiniCartWasUpdatedWithOneItemMore() {
+  // PENDING
+}
+
+
+

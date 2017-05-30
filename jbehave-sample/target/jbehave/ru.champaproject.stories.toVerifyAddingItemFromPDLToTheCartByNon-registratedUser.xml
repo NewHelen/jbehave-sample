@@ -1,0 +1,8 @@
+<story path="ru/champaproject/stories/toVerifyAddingItemFromPDLToTheCartByNon-registratedUser.story" title="">
+<scenario keyword="Scenario:" title="to verify adding item from PDL to the cart by non-registrated user">
+<step outcome="failed" keyword="FAILED">Given Check items quantity in the cart<failure>java.lang.NullPointerException</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Go to PDL</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When Choose the item and click the &quot;in cart&quot; button</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then The screen displays the item in the cart</step>
+</scenario>
+</story>

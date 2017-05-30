@@ -1,0 +1,15 @@
+#org.jbehave.core.embedder.StoryManager
+#Wed May 03 08:45:11 EEST 2017
+ru/champaproject/stories/ToVerifyShoppingCartItemsRemoval.story=10000
+ru/champaproject/stories/toVerifySummaryItemCounterOfTheCart.story=0
+ru/champaproject/stories/registrationWithEmptyCredentials.story=1000
+ru/champaproject/stories/registrationWihtNotValidData.story=0
+ru/champaproject/stories/loginWithEmptyCredentials.story=0
+ru/champaproject/stories/toVerifyLoginWithWrongPassword.story=0
+total=25000
+ru/champaproject/stories/toVerifyCheckoutWithNotfilledOrderDetails.story=9000
+threadAverage=25000
+ru/champaproject/stories/ToVerifyAddingProductFromPDPtoTheCartTwice.story=0
+ru/champaproject/stories/toVerifyAddingItemFromPDLToTheCartByNon-registratedUser.story=0
+threads=1
+ru/champaproject/stories/toVerifyItemPriceAndTotalPriceInTheCart.story=5000
